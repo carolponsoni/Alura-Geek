@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek - E-commerce</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </div>
+    </header>
+
+    <main>
+        <section class="product-section">
+            <h2>Meus Produtos:</h2>
+            <div class="product-list">
+    <img src="images/stormtrooper.jpg" alt="Stormtrooper">
+    <h3>Stormtrooper</h3>
+    <p>$ 60.00</p>
+    <button class="delete-button">🗑️</button>
+			<div class="product-card">
+    <img src="images/gameboy.jpg" alt="Gameboy">
+    <h4>Game boy</h4>
+    <p>$ 60.00</p>
+    <button class="delete-button">🗑️</button>
+				<div class="product-card">
+    <img src="images/gameboy.jpg" alt="Gameboy">
+    <h4>Game boy</h4>
+    <p>$ 60.00</p>
+    <button class="delete-button">🗑️</button>
+			</div>
+				
+</section>
+        
+        <aside class="add-product">
+            <h2>Adicionar Produto:</h2>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="Nome..." required>
+                <input type="number" id="product-price" placeholder="Valor..." required>
+                <input type="text" id="product-image" placeholder="Imagem URL..." required>
+                <button type="submit">Guardar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>Desenvolvido por Carol Ponsoni</p><BR
+            <p>Alura LATAM - 2024</p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
